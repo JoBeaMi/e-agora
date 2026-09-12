@@ -1,0 +1,17 @@
+# Como usar este livro
+
+Cada capítulo tem sempre as mesmas partes, pela ordem em que aconteceram na aula.
+
+::: {.intuicao}
+**O que costumamos achar.** As respostas que apareceram na turma quando a pergunta foi feita. Ficam aqui porque são exatamente as leituras que vão encontrar em artigos mal escritos e em conversas de sala de terapeutas.
+:::
+
+::: {.definicao}
+**O que é de facto.** A definição, escrita no fim, com as palavras da turma corrigidas.
+:::
+
+Depois vêm os passos no Jamovi, quando os há, e as frases de resultados retiradas de artigos publicados, com a pergunta de sempre: que teste foi, foi significativo, qual o efeito, e que conclusão é legítima.
+
+## Antes da primeira aula de Jamovi
+
+Instalar o Jamovi (gratuito, para Mac e Windows) a partir de [jamovi.org](https://www.jamovi.org/). O ficheiro de dados usado nas aulas é distribuído pela docente; não usem dados de crianças ou de utentes reais em nenhum exercício.

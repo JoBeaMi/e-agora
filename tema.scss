@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+$primary: #1f345a;      // navy ESSAlcoitão/SCML
+$link-color: #0ea0a9;   // teal
+$body-color: #1d1d1b;   // tinta
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+.sidebar-title { color: $primary; }
+.callout-pergunta { border-left-color: #0ea0a9; }
+div.callout-note.callout-style-default > .callout-header { background-color: #e6f6f7; }
+h1, h2, h3 { color: #1f345a; }
+.intuicao { background: #fbeef1; border-left: 4px solid #a90a2e; padding: .6em 1em; margin: 1em 0; }
+.definicao { background: #e6f6f7; border-left: 4px solid #0ea0a9; padding: .6em 1em; margin: 1em 0; }
