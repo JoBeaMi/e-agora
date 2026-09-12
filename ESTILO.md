@@ -1,5 +1,7 @@
 # Estilo do livro (fixado 12-09-2026, versão 3, escolhido pela Joana a partir de nove direções)
 
+O livro é intemporal e da Joana, não da cadeira: título sem sigla, capítulos organizados pelo que se aprende (Parte I Ler números; Parte II Do problema ao protocolo), e cada cadeira/ano é uma página em percursos/ (datas, ordem dos capítulos, enunciado, grelha). Nada de datas, FUC, RUC ou nomes de escola fora de percursos/. As respostas das turmas entram nos capítulos, sem nomes e sem ano.
+
 Aspeto: títulos em Archivo 900, corpo em Newsreader, números em JetBrains Mono; uma cor só, o amarelo ácido (#e8ff47), com rosa (#ffb0d6) apenas como segundo marcador; preto de tinta. Nada de caixas pastel, ícones, emojis, gradientes, nem o ponto no meio da linha (" · "): separa-se com vírgula ou travessão. Tudo está em style.css; não se inventa CSS por capítulo.
 
 Arquitetura de cada capítulo (sNN-tema.qmd), pela ordem da aula:

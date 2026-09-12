@@ -5,11 +5,11 @@ project:
 lang: pt-PT
 
 book:
-  title: "Métodos de Pesquisa em Terapia da Fala II"
-  subtitle: "Ler artigos, desconfiar de números, escrever um protocolo"
+  title: "Ler artigos em terapia da fala"
+  subtitle: "Desconfiar de números, perceber o que foi feito, escrever um protocolo"
   author:
     - name: Joana Miguel
-      email: joana.miguel@scml.pt
+      email: joana.miguel@caidi.pt
   date: today
   date-format: "D MMMM YYYY"
   license: CC BY-NC-SA
@@ -18,32 +18,35 @@ book:
   repo-branch: main
   reader-mode: true
   sidebar:
-    title: Métodos de Pesquisa<br>em Terapia da Fala II
-    subtitle: 2026/27, em construção
+    title: Ler artigos<br>em terapia da fala
+    subtitle: Joana Miguel, em construção
     tools:
       - icon: envelope
-        href: mailto:joana.miguel@scml.pt
+        href: mailto:joana.miguel@caidi.pt
   page-footer:
     background: light
     left: Joana Miguel
-    center: Métodos de Pesquisa em Terapia da Fala II, ESSAlcoitão, 2026/27
+    center: Ler artigos em terapia da fala
     right: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt">CC BY-NC-SA</a>
   chapters:
     - index.qmd
     - como-usar.qmd
-    # Os capítulos entram aqui DEPOIS de cada aula:
+    # Parte I. Ler números (capítulos entram à medida que ficam prontos)
     # - part: "Ler números"
     #   chapters:
-    #     - s01-ler-um-resultado.qmd
-    #     - s02-descrever-e-desconfiar.qmd
-    #     - s03-o-valor-p.qmd
+    #     - 01-ler-um-resultado.qmd
+    #     - 02-descrever-e-desconfiar.qmd
+    #     - 03-o-valor-p.qmd
+    # Parte II. Do problema ao protocolo
     # - part: "Do problema ao protocolo"
     #   chapters:
-    #     - s04-da-duvida-a-pergunta.qmd
-    #     - s05-etica-e-tipos-de-estudo.qmd
-    #     - s06-pbe-e-analise-critica.qmd
-    #     - s07-revisao-sistematica.qmd
-    # - o-trabalho.qmd
+    #     - 04-da-duvida-a-pergunta.qmd
+    #     - 05-etica-e-tipos-de-estudo.qmd
+    #     - 06-pbe-e-analise-critica.qmd
+    #     - 07-revisao-sistematica.qmd
+    - part: "Percursos"
+      chapters:
+        - percursos/mptf-ii-2026.qmd
     - referencias.qmd
   appendices:
     - glossario.qmd

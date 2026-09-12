@@ -1,6 +1,6 @@
 # Como usar este livro {.unnumbered}
 
-Os capítulos seguem a ordem da aula, e a aula tem sempre três vozes: o artigo, a turma e o caminho. O artigo fala primeiro, com a frase real que lemos; a turma responde, com o que ficou no quadro; e depois vem o caminho entre essas respostas e o conceito. A definição só aparece no fim. Isto é um excerto do capítulo 3, para veres como se lê.
+Os capítulos seguem a ordem de uma aula, e a aula tem sempre três vozes: o artigo, a turma e o caminho. O artigo fala primeiro, com a frase real que lemos; a turma responde, com o que ficou no quadro; e depois vem o caminho entre essas respostas e o conceito. A definição só aparece no fim. Isto é um excerto do capítulo sobre o valor p, para veres como se lê.
 
 ::: {.fio}
 ::: {.msg}
@@ -39,7 +39,7 @@ O valor p é a probabilidade de obter um resultado pelo menos tão extremo como 
 <label><input type="radio" name="q01" value="2"> a intervenção melhora, mas o efeito é pequeno</label>
 <label><input type="radio" name="q01" value="3"> este ensaio não conseguiu mostrar diferença; é preciso olhar para o intervalo de confiança e para o tamanho da amostra</label>
 <button type="button">Verificar</button> <span class="resultado"></span>
-<p class="explicacao">Ausência de evidência não é evidência de ausência. O capítulo 3 explica porquê; se escolheste a primeira, é a leitura mais comum, incluindo em artigos publicados.</p>
+<p class="explicacao">Ausência de evidência não é evidência de ausência. O capítulo sobre o valor p explica porquê; se escolheste a primeira, é a leitura mais comum, incluindo em artigos publicados.</p>
 :::
 
 ## O fim de cada capítulo
@@ -48,8 +48,8 @@ Três secções fixas. "O que fica": a ideia em três frases. "Exercícios": fra
 
 ## O Jamovi
 
-Nos capítulos 2 e 3 reproduzes no Jamovi o que os artigos fizeram. Instala-o a partir de [jamovi.org](https://www.jamovi.org/) (gratuito, Mac e Windows). O ficheiro de dados das aulas é distribuído pela docente e é construído: não há nele nenhuma criança real. Não uses dados de utentes em nenhum exercício.
+Nos capítulos sobre números reproduzes no Jamovi o que os artigos fizeram. Instala-o a partir de [jamovi.org](https://www.jamovi.org/) (gratuito, Mac e Windows). O ficheiro de dados das aulas é distribuído pela docente e é construído: não há nele nenhuma criança real. Não uses dados de utentes em nenhum exercício.
 
-## O livro de texto da cadeira
+## O livro de texto
 
-O manual da UC é o de @irwin2026, na biblioteca da escola. Cada "Para ler mais" indica as páginas. O ensaio citado acima é o de @roberts2015.
+O manual que acompanha este livro é o de @irwin2026; cada "Para ler mais" indica as páginas. O ensaio citado acima é o de @roberts2015.

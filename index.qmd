@@ -1,27 +1,33 @@
 # Prefácio {.unnumbered}
 
-Este livro acompanha a unidade curricular Métodos de Pesquisa em Terapia da Fala II, do 2.º ano da Licenciatura em Terapia da Fala da ESSAlcoitão, no ano letivo de 2026/27. Foi escrito para os estudantes dessa cadeira. Serve também a qualquer terapeuta da fala que abra um artigo, chegue à secção de resultados e não saiba o que fazer com os números.
+Este livro é para terapeutas da fala, e para quem está a caminho de o ser, que abrem um artigo, chegam à secção de resultados e não sabem o que fazer com os números. Não é um manual de estatística; há muitos, alguns muito bons, e estão indicados no fim dos capítulos. O que se faz aqui é mais estreito e, para um clínico, mais útil: aprender a reconhecer o que foi feito num estudo, perceber o que os números permitem concluir e o que não permitem, e escrever um plano de revisão sistemática que outra pessoa conseguisse seguir sem nos perguntar nada.
 
-## Para quem é
+## Porque é que o escrevi
 
-Para quem nunca teve estatística, ou teve e não ficou nada. Não é preciso saber fórmulas nem programar. É preciso ler um artigo até ao fim, ter uma calculadora à mão de vez em quando e instalar um programa gratuito, o Jamovi, quando um capítulo o pedir.
+Sou terapeuta da fala desde 2006 e dirijo uma clínica desde 2011. Ao longo destes anos vi a mesma cena repetir-se em reuniões clínicas, em formações e em conversas de corredor: alguém cita um artigo, diz "foi significativo", e a partir daí a decisão está tomada. Ninguém pergunta quantas crianças eram, qual foi a diferença, ou se o desenho do estudo permitia dizer que uma coisa causou a outra. Não é falta de inteligência nem de boa vontade; é que estes conceitos parecem intuitivos, e a intuição está quase sempre errada da mesma maneira. Vi-o em estudantes e vi-o em colegas com trinta anos de profissão, e vi-o em mim antes de ter passado alguns anos a estudar estatística por causa do doutoramento.
 
-## O que este livro não é
+::: {.jm}
+o momento em que decidi escrever isto foi numa aula, quando pedi a uma turma que me dissesse o que achava que "p = ,02" queria dizer e as respostas que apareceram no quadro eram exatamente as que eu ouvia em reuniões de equipa. O problema não era deles.
+:::
 
-Não é um manual de estatística. Há muitos, alguns muito bons, e estão indicados no fim dos capítulos. O que se faz aqui é mais estreito: aprender a reconhecer o que foi feito num estudo, perceber o que os números permitem concluir, e escrever um plano de revisão sistemática que outra pessoa conseguisse seguir sem nos perguntar nada.
+## Como este livro ensina
 
-## Porque é que os capítulos aparecem depois das aulas
+Cada capítulo começa por uma frase real de um artigo publicado e por uma pergunta: o que é que isto quer dizer? Antes de qualquer definição, aparecem as respostas que uma turma deu a essa pergunta, tal como ficaram no quadro, sem nomes. Depois vem o caminho entre essas respostas e o que o conceito é de facto, e só no fim a definição. A ordem é de propósito: uma definição lida antes de se ter tentado responder não fica; uma definição que corrige a nossa própria resposta, fica.
 
-Cada capítulo corresponde a uma aula e só fica visível depois dela. As aulas começam por uma pergunta sobre uma frase real de um artigo (por exemplo, "o que quer dizer p = ,021?") e a primeira coisa que fazemos é escrever no quadro o que cada um acha. A aula é o caminho entre essas respostas e o que o conceito é. Se a definição já estivesse lida, não havia caminho. O capítulo é a versão arrumada do que se passou, com as respostas que apareceram na turma, sem nomes, ao lado da versão certa. Vale a pena guardá-las: são as leituras que vão encontrar em artigos mal escritos e em conversas entre colegas.
+As respostas da turma são reais e vão sendo acrescentadas à medida que dou aulas com este livro. Se te reconheceres numa delas, é bom sinal: quer dizer que a pergunta era a certa.
+
+## Para quem é, e o que é preciso
+
+Para quem nunca teve estatística, ou teve e não ficou nada. Não é preciso saber fórmulas nem programar. É preciso ler um artigo até ao fim, ter uma calculadora à mão de vez em quando e instalar um programa gratuito, o Jamovi, quando um capítulo o pedir. Os exemplos são de artigos publicados em terapia da fala e em áreas vizinhas, com a referência completa; os dados de exercício são construídos e nenhum caso corresponde a uma pessoa real.
 
 ## Que atitude ajuda
 
-Duas. Desconfiar devagar: um número num artigo nunca diz mais do que o desenho do estudo permite, e a pergunta "o que mais podia explicar isto?" serve para quase tudo. E aceitar não perceber à primeira: o valor p, o intervalo de confiança e a diferença entre correlação e causa enganam gente com trinta anos de carreira. Enganam porque parecem intuitivos. É por isso que aqui se parte da intuição e se vai desmontando.
+Duas. Desconfiar devagar: um número num artigo nunca diz mais do que o desenho do estudo permite, e a pergunta "o que mais podia explicar isto?" serve para quase tudo. E aceitar não perceber à primeira: o valor p, o intervalo de confiança e a diferença entre correlação e causa enganam gente experiente. Enganam porque parecem intuitivos, e é por isso que aqui se parte da intuição e se vai desmontando.
 
 ## Erros
 
-O livro é corrigido de ano para ano. Um erro, uma frase que não se percebe, um exemplo que não bate certo com a prática: digam à docente na aula ou por email. É o melhor feedback que um livro destes pode ter.
+O livro é corrigido continuamente. Um erro, uma frase que não se percebe, um exemplo que não bate certo com a prática: escreve-me. É o melhor feedback que um livro destes pode ter.
 
 ## Licença
 
-© Joana Miguel, 2026. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt): podem ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos. Os dados de exemplo são construídos para este livro; nenhum caso corresponde a uma pessoa real.
+© Joana Miguel, 2026. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt): podes ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos.
