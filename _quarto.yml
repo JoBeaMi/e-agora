@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: pt-PT
+
+book:
+  title: "Métodos de Pesquisa em Terapia da Fala II"
+  subtitle: "Ler artigos, desconfiar de números, escrever um protocolo"
+  author: "Joana Miguel"
+  date: today
+  date-format: "D MMMM YYYY"
+  site-url: https://jobeami.github.io/mptf-ii/
+  repo-url: https://github.com/JoBeaMi/mptf-ii
+  chapters:
+    - index.qmd
+    - part: "Antes de começar"
+      chapters:
+        - como-usar.qmd
+    # Os capítulos das sessões entram aqui DEPOIS de cada aula:
+    # - s01-ler-um-resultado.qmd
+    # - s02-descrever-e-desconfiar.qmd
+    # - s03-o-valor-p.qmd
+    # - s04-da-duvida-a-pergunta.qmd
+    # - s05-etica-e-tipos-de-estudo.qmd
+    # - s06-pbe-e-analise-critica.qmd
+    # - s07-revisao-sistematica.qmd
+    # - o-trabalho.qmd
+    - glossario.qmd
+    - referencias.qmd
+  page-footer:
+    left: "Joana Miguel · ESSAlcoitão · 2026/27"
+    right: "CC BY-NC-SA 4.0"
+
+bibliography: referencias.bib
+csl: apa.csl
+
+format:
+  html:
+    theme:
+      - cosmo
+      - tema.scss
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+  pdf:
+    documentclass: scrbook
+    toc: true
+    number-sections: true
+    lang: pt-PT
