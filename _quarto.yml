@@ -7,30 +7,46 @@ lang: pt-PT
 book:
   title: "Métodos de Pesquisa em Terapia da Fala II"
   subtitle: "Ler artigos, desconfiar de números, escrever um protocolo"
-  author: "Joana Miguel"
+  author:
+    - name: Joana Miguel
+      email: joana.miguel@scml.pt
   date: today
   date-format: "D MMMM YYYY"
+  license: CC BY-NC-SA
   site-url: https://joanamiguel.pt/mptf-ii/
   repo-url: https://github.com/JoBeaMi/mptf-ii
+  repo-branch: main
+  reader-mode: true
+  sidebar:
+    title: Métodos de Pesquisa<br>em Terapia da Fala II
+    subtitle: 2026/27, em construção
+    tools:
+      - icon: envelope
+        href: mailto:joana.miguel@scml.pt
+  page-footer:
+    background: light
+    left: Joana Miguel
+    center: Métodos de Pesquisa em Terapia da Fala II, ESSAlcoitão, 2026/27
+    right: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt">CC BY-NC-SA</a>
   chapters:
     - index.qmd
-    - part: "Antes de começar"
-      chapters:
-        - como-usar.qmd
-    # Os capítulos das sessões entram aqui DEPOIS de cada aula:
-    # - s01-ler-um-resultado.qmd
-    # - s02-descrever-e-desconfiar.qmd
-    # - s03-o-valor-p.qmd
-    # - s04-da-duvida-a-pergunta.qmd
-    # - s05-etica-e-tipos-de-estudo.qmd
-    # - s06-pbe-e-analise-critica.qmd
-    # - s07-revisao-sistematica.qmd
+    - como-usar.qmd
+    # Os capítulos entram aqui DEPOIS de cada aula:
+    # - part: "Ler números"
+    #   chapters:
+    #     - s01-ler-um-resultado.qmd
+    #     - s02-descrever-e-desconfiar.qmd
+    #     - s03-o-valor-p.qmd
+    # - part: "Do problema ao protocolo"
+    #   chapters:
+    #     - s04-da-duvida-a-pergunta.qmd
+    #     - s05-etica-e-tipos-de-estudo.qmd
+    #     - s06-pbe-e-analise-critica.qmd
+    #     - s07-revisao-sistematica.qmd
     # - o-trabalho.qmd
-    - glossario.qmd
     - referencias.qmd
-  page-footer:
-    left: "Joana Miguel · ESSAlcoitão · 2026/27"
-    right: "CC BY-NC-SA 4.0"
+  appendices:
+    - glossario.qmd
 
 bibliography: referencias.bib
 csl: apa.csl
@@ -38,9 +54,14 @@ csl: apa.csl
 format:
   html:
     theme:
-      - cosmo
-      - tema.scss
+      light: cosmo
+      dark: darkly
+    css: style.css
+    include-in-header:
+      - text: '<script src="quiz.js"></script>'
     toc: true
     toc-depth: 3
     number-sections: true
-    code-copy: true
+    link-external-newwindow: true
+    footnotes-hover: true
+    lightbox: true

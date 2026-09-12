@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+$primary: #1f345a;      // navy ESSAlcoitão/SCML
+$link-color: #0ea0a9;   // teal
+$body-color: #1d1d1b;   // tinta
+$font-size-root: 17px;
+$headings-font-weight: 600;
+$toc-color: #1f345a;
+
+/*-- scss:rules --*/
+h1, h2, h3 { color: #1f345a; }
+.sidebar-title { color: #1f345a; }
+
+/* Caixas do método da cadeira */
+.pergunta { background: #fff8e6; border-left: 5px solid #e0a100; padding: .7em 1.1em; margin: 1.4em 0; font-size: 1.08em; }
+.pergunta::before { content: "Pergunta de partida"; display: block; font-size: .75em; letter-spacing: .06em; text-transform: uppercase; color: #8a6300; margin-bottom: .3em; }
+.intuicao { background: #fbeef1; border-left: 5px solid #a90a2e; padding: .7em 1.1em; margin: 1.2em 0; }
+.intuicao::before { content: "O que costumamos achar"; display: block; font-size: .75em; letter-spacing: .06em; text-transform: uppercase; color: #a90a2e; margin-bottom: .3em; }
+.definicao { background: #e6f6f7; border-left: 5px solid #0ea0a9; padding: .7em 1.1em; margin: 1.2em 0; }
+.definicao::before { content: "O que é de facto"; display: block; font-size: .75em; letter-spacing: .06em; text-transform: uppercase; color: #0a7a80; margin-bottom: .3em; }
+
+/* Quiz: pergunta com resposta escondida (details) */
+details.quiz { border: 1px solid #cfe3e5; border-radius: 6px; padding: .5em .9em; margin: .8em 0; background: #fafcfc; }
+details.quiz summary { cursor: pointer; font-weight: 600; color: #1f345a; }
+details.quiz[open] summary { margin-bottom: .5em; }
+.quiz ol { margin-top: .4em; }
+
+/* Callouts do Quarto: cores da escola */
+div.callout-tip.callout-style-default > .callout-header { background-color: #e6f6f7; }
+div.callout-note.callout-style-default > .callout-header { background-color: #eaeef5; }
+div.callout-warning.callout-style-default > .callout-header { background-color: #fff3e0; }
+div.callout-caution.callout-style-default > .callout-header { background-color: #fbeef1; }

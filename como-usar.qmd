@@ -1,17 +1,55 @@
-# Como usar este livro
+# Como usar este livro {.unnumbered}
 
-Cada capítulo tem sempre as mesmas partes, pela ordem em que aconteceram na aula.
+Os capítulos seguem a ordem da aula, e a aula tem sempre três vozes: o artigo, a turma e o caminho. O artigo fala primeiro, com a frase real que lemos; a turma responde, com o que ficou no quadro; e depois vem o caminho entre essas respostas e o conceito. A definição só aparece no fim. Isto é um excerto do capítulo 3, para veres como se lê.
 
-::: {.intuicao}
-**O que costumamos achar.** As respostas que apareceram na turma quando a pergunta foi feita. Ficam aqui porque são exatamente as leituras que vão encontrar em artigos mal escritos e em conversas de sala de terapeutas.
+::: {.fio}
+::: {.msg}
+<div class="quem">O artigo</div>
+::: {.clip}
+Os cuidadores melhoraram o uso das estratégias de facilitação da linguagem ([diferença média ajustada = 40; IC 95 % \[34, 46\]]{.mk}; [p < ,01]{.mk .p}). As crianças mostraram ganhos [significativamente]{.mk .p} melhores nas competências recetivas, [mas não na linguagem expressiva]{.mk}.
+<span class="src">Roberts & Kaiser (2015), Pediatrics 135(4), resumo</span>
+:::
+:::
+::: {.msg .turma}
+<div class="quem">A turma, no quadro</div>
+<span class="b">p < ,01 é quase 0, logo é quase certo que funciona</span>
+<span class="b">"não na expressiva" quer dizer que para falar não serve</span>
+<span class="b">40 é muito? 40 quê?</span>
+:::
+::: {.msg}
+<div class="quem">O caminho</div>
+::: {.jm}
+a terceira é a melhor das três, e é por ela que começo sempre. Quem pergunta "40 quê?" já está a ler o artigo; os outros dois estão a ler o p.
+:::
+::: {.nums}
+<div class="num">40<small>a diferença entre grupos</small></div>
+<div class="num">34–46<small>IC 95 % dessa diferença</small></div>
+:::
+O 40 é a diferença, entre grupos, no número de vezes que os pais usaram as estratégias ensinadas, ajustada às diferenças iniciais. O intervalo de confiança diz onde essa diferença cairia se o ensaio fosse repetido muitas vezes: entre 34 e 46. É isto que responde a "é muito?"; o p não.
+:::
 :::
 
-::: {.definicao}
-**O que é de facto.** A definição, escrita no fim, com as palavras da turma corrigidas.
+::: {.def}
+O valor p é a probabilidade de obter um resultado pelo menos tão extremo como o observado se não houvesse efeito nenhum. Não é a probabilidade de a hipótese estar certa, nem o tamanho do efeito. O tamanho lê-se na diferença e no seu intervalo de confiança.
 :::
 
-Depois vêm os passos no Jamovi, quando os há, e as frases de resultados retiradas de artigos publicados, com a pergunta de sempre: que teste foi, foi significativo, qual o efeito, e que conclusão é legítima.
+::: {.quiz data-certa="3"}
+<p class="enunciado">Q0.1 No mesmo ensaio, a linguagem expressiva das crianças não diferiu significativamente entre grupos. A conclusão legítima é:</p>
+<label><input type="radio" name="q01" value="1"> a intervenção não melhora a linguagem expressiva</label>
+<label><input type="radio" name="q01" value="2"> a intervenção melhora, mas o efeito é pequeno</label>
+<label><input type="radio" name="q01" value="3"> este ensaio não conseguiu mostrar diferença; é preciso olhar para o intervalo de confiança e para o tamanho da amostra</label>
+<button type="button">Verificar</button> <span class="resultado"></span>
+<p class="explicacao">Ausência de evidência não é evidência de ausência. O capítulo 3 explica porquê; se escolheste a primeira, é a leitura mais comum, incluindo em artigos publicados.</p>
+:::
 
-## Antes da primeira aula de Jamovi
+## O fim de cada capítulo
 
-Instalar o Jamovi (gratuito, para Mac e Windows) a partir de [jamovi.org](https://www.jamovi.org/). O ficheiro de dados usado nas aulas é distribuído pela docente; não usem dados de crianças ou de utentes reais em nenhum exercício.
+Três secções fixas. "O que fica": a ideia em três frases. "Exercícios": frases de resultados retiradas de artigos publicados, com a pergunta de sempre (que teste foi, foi significativo, qual o efeito, que conclusão é legítima). "Para ler mais": as páginas do livro de texto da cadeira e um ou dois artigos, todos verificados.
+
+## O Jamovi
+
+Nos capítulos 2 e 3 reproduzes no Jamovi o que os artigos fizeram. Instala-o a partir de [jamovi.org](https://www.jamovi.org/) (gratuito, Mac e Windows). O ficheiro de dados das aulas é distribuído pela docente e é construído: não há nele nenhuma criança real. Não uses dados de utentes em nenhum exercício.
+
+## O livro de texto da cadeira
+
+O manual da UC é o de @irwin2026, na biblioteca da escola. Cada "Para ler mais" indica as páginas. O ensaio citado acima é o de @roberts2015.
