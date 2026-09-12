@@ -1,0 +1,43 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "",
+    "text": "Para quem é este livro\nEste livro acompanha a unidade curricular Métodos de Pesquisa em Terapia da Fala II (Licenciatura em Terapia da Fala, ESSAlcoitão, 2026/27). É escrito para os estudantes da UC, mas qualquer terapeuta da fala que queira ler um artigo sem se perder na secção de resultados pode usá-lo.\nCada capítulo corresponde a uma aula e aparece aqui depois dessa aula, não antes. Isto é de propósito: as aulas começam pelo que cada um acha que os números querem dizer, e esse jogo só funciona se ninguém tiver lido a definição antes. O que encontram em cada capítulo é a versão arrumada do que se passou: a pergunta com que a aula abriu, as respostas que costumam aparecer, o caminho entre essas respostas e o conceito, os passos no Jamovi com capturas, e as frases de artigos reais para treinar.\nO livro cresce durante o semestre e é corrigido de ano para ano. Se encontrarem um erro ou uma frase que não se percebe, digam à docente: é o melhor feedback que o livro pode ter.",
+    "crumbs": [
+      "Para quem é este livro"
+    ]
+  },
+  {
+    "objectID": "index.html#licença",
+    "href": "index.html#licença",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "Licença",
+    "text": "Licença\n© Joana Miguel, 2026. Este livro está disponível sob a licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0): podem ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos. As figuras e os dados de exemplo são construídos para este livro; nenhum caso corresponde a uma pessoa real.",
+    "crumbs": [
+      "Para quem é este livro"
+    ]
+  },
+  {
+    "objectID": "como-usar.html",
+    "href": "como-usar.html",
+    "title": "1  Como usar este livro",
+    "section": "",
+    "text": "1.1 Antes da primeira aula de Jamovi\nCada capítulo tem sempre as mesmas partes, pela ordem em que aconteceram na aula.\nDepois vêm os passos no Jamovi, quando os há, e as frases de resultados retiradas de artigos publicados, com a pergunta de sempre: que teste foi, foi significativo, qual o efeito, e que conclusão é legítima.\nInstalar o Jamovi (gratuito, para Mac e Windows) a partir de jamovi.org. O ficheiro de dados usado nas aulas é distribuído pela docente; não usem dados de crianças ou de utentes reais em nenhum exercício.",
+    "crumbs": [
+      "Antes de começar",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Como usar este livro</span>"
+    ]
+  },
+  {
+    "objectID": "glossario.html",
+    "href": "glossario.html",
+    "title": "Glossário",
+    "section": "",
+    "text": "Cresce ao longo do semestre. Cada entrada remete para o capítulo onde o termo foi trabalhado.\n(ainda vazio)",
+    "crumbs": [
+      "Glossário"
+    ]
+  }
+]
