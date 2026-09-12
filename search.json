@@ -4,9 +4,59 @@
     "href": "index.html",
     "title": "Métodos de Pesquisa em Terapia da Fala II",
     "section": "",
-    "text": "Para quem é este livro\nEste livro acompanha a unidade curricular Métodos de Pesquisa em Terapia da Fala II (Licenciatura em Terapia da Fala, ESSAlcoitão, 2026/27). É escrito para os estudantes da UC, mas qualquer terapeuta da fala que queira ler um artigo sem se perder na secção de resultados pode usá-lo.\nCada capítulo corresponde a uma aula e aparece aqui depois dessa aula, não antes. Isto é de propósito: as aulas começam pelo que cada um acha que os números querem dizer, e esse jogo só funciona se ninguém tiver lido a definição antes. O que encontram em cada capítulo é a versão arrumada do que se passou: a pergunta com que a aula abriu, as respostas que costumam aparecer, o caminho entre essas respostas e o conceito, os passos no Jamovi com capturas, e as frases de artigos reais para treinar.\nO livro cresce durante o semestre e é corrigido de ano para ano. Se encontrarem um erro ou uma frase que não se percebe, digam à docente: é o melhor feedback que o livro pode ter.",
+    "text": "Prefácio\nEste livro acompanha a unidade curricular Métodos de Pesquisa em Terapia da Fala II, do 2.º ano da Licenciatura em Terapia da Fala da ESSAlcoitão, no ano letivo de 2026/27. Foi escrito para os estudantes dessa cadeira. Serve também a qualquer terapeuta da fala que abra um artigo, chegue à secção de resultados e não saiba o que fazer com os números.",
     "crumbs": [
-      "Para quem é este livro"
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "index.html#para-quem-é",
+    "href": "index.html#para-quem-é",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "Para quem é",
+    "text": "Para quem é\nPara quem nunca teve estatística, ou teve e não ficou nada. Não é preciso saber fórmulas nem programar. É preciso ler um artigo até ao fim, ter uma calculadora à mão de vez em quando e instalar um programa gratuito, o Jamovi, quando um capítulo o pedir.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "index.html#o-que-este-livro-não-é",
+    "href": "index.html#o-que-este-livro-não-é",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "O que este livro não é",
+    "text": "O que este livro não é\nNão é um manual de estatística. Há muitos, alguns muito bons, e estão indicados no fim dos capítulos. O que se faz aqui é mais estreito: aprender a reconhecer o que foi feito num estudo, perceber o que os números permitem concluir, e escrever um plano de revisão sistemática que outra pessoa conseguisse seguir sem nos perguntar nada.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "index.html#porque-é-que-os-capítulos-aparecem-depois-das-aulas",
+    "href": "index.html#porque-é-que-os-capítulos-aparecem-depois-das-aulas",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "Porque é que os capítulos aparecem depois das aulas",
+    "text": "Porque é que os capítulos aparecem depois das aulas\nCada capítulo corresponde a uma aula e só fica visível depois dela. As aulas começam por uma pergunta sobre uma frase real de um artigo (por exemplo, “o que quer dizer p = ,021?”) e a primeira coisa que fazemos é escrever no quadro o que cada um acha. A aula é o caminho entre essas respostas e o que o conceito é. Se a definição já estivesse lida, não havia caminho. O capítulo é a versão arrumada do que se passou, com as respostas que apareceram na turma, sem nomes, ao lado da versão certa. Vale a pena guardá-las: são as leituras que vão encontrar em artigos mal escritos e em conversas entre colegas.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "index.html#que-atitude-ajuda",
+    "href": "index.html#que-atitude-ajuda",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "Que atitude ajuda",
+    "text": "Que atitude ajuda\nDuas. Desconfiar devagar: um número num artigo nunca diz mais do que o desenho do estudo permite, e a pergunta “o que mais podia explicar isto?” serve para quase tudo. E aceitar não perceber à primeira: o valor p, o intervalo de confiança e a diferença entre correlação e causa enganam gente com trinta anos de carreira. Enganam porque parecem intuitivos. É por isso que aqui se parte da intuição e se vai desmontando.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "index.html#erros",
+    "href": "index.html#erros",
+    "title": "Métodos de Pesquisa em Terapia da Fala II",
+    "section": "Erros",
+    "text": "Erros\nO livro é corrigido de ano para ano. Um erro, uma frase que não se percebe, um exemplo que não bate certo com a prática: digam à docente na aula ou por email. É o melhor feedback que um livro destes pode ter.",
+    "crumbs": [
+      "Prefácio"
     ]
   },
   {
@@ -14,20 +64,49 @@
     "href": "index.html#licença",
     "title": "Métodos de Pesquisa em Terapia da Fala II",
     "section": "Licença",
-    "text": "Licença\n© Joana Miguel, 2026. Este livro está disponível sob a licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0): podem ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos. As figuras e os dados de exemplo são construídos para este livro; nenhum caso corresponde a uma pessoa real.",
+    "text": "Licença\n© Joana Miguel, 2026. CC BY-NC-SA 4.0: podem ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos. Os dados de exemplo são construídos para este livro; nenhum caso corresponde a uma pessoa real.",
     "crumbs": [
-      "Para quem é este livro"
+      "Prefácio"
     ]
   },
   {
     "objectID": "como-usar.html",
     "href": "como-usar.html",
-    "title": "1  Como usar este livro",
+    "title": "Como usar este livro",
     "section": "",
-    "text": "1.1 Antes da primeira aula de Jamovi\nCada capítulo tem sempre as mesmas partes, pela ordem em que aconteceram na aula.\nDepois vêm os passos no Jamovi, quando os há, e as frases de resultados retiradas de artigos publicados, com a pergunta de sempre: que teste foi, foi significativo, qual o efeito, e que conclusão é legítima.\nInstalar o Jamovi (gratuito, para Mac e Windows) a partir de jamovi.org. O ficheiro de dados usado nas aulas é distribuído pela docente; não usem dados de crianças ou de utentes reais em nenhum exercício.",
+    "text": "O fim de cada capítulo\nOs capítulos seguem a ordem da aula, e a aula tem sempre três vozes: o artigo, a turma e o caminho. O artigo fala primeiro, com a frase real que lemos; a turma responde, com o que ficou no quadro; e depois vem o caminho entre essas respostas e o conceito. A definição só aparece no fim. Isto é um excerto do capítulo 3, para veres como se lê.\nTrês secções fixas. “O que fica”: a ideia em três frases. “Exercícios”: frases de resultados retiradas de artigos publicados, com a pergunta de sempre (que teste foi, foi significativo, qual o efeito, que conclusão é legítima). “Para ler mais”: as páginas do livro de texto da cadeira e um ou dois artigos, todos verificados.",
     "crumbs": [
-      "Antes de começar",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Como usar este livro</span>"
+      "Como usar este livro"
+    ]
+  },
+  {
+    "objectID": "como-usar.html#o-jamovi",
+    "href": "como-usar.html#o-jamovi",
+    "title": "Como usar este livro",
+    "section": "O Jamovi",
+    "text": "O Jamovi\nNos capítulos 2 e 3 reproduzes no Jamovi o que os artigos fizeram. Instala-o a partir de jamovi.org (gratuito, Mac e Windows). O ficheiro de dados das aulas é distribuído pela docente e é construído: não há nele nenhuma criança real. Não uses dados de utentes em nenhum exercício.",
+    "crumbs": [
+      "Como usar este livro"
+    ]
+  },
+  {
+    "objectID": "como-usar.html#o-livro-de-texto-da-cadeira",
+    "href": "como-usar.html#o-livro-de-texto-da-cadeira",
+    "title": "Como usar este livro",
+    "section": "O livro de texto da cadeira",
+    "text": "O livro de texto da cadeira\nO manual da UC é o de Irwin & Donai (2026), na biblioteca da escola. Cada “Para ler mais” indica as páginas. O ensaio citado acima é o de Roberts & Kaiser (2015).\n\n\n\n\nIrwin, D. L., & Donai, J. J. (2026). Clinical research methods in speech-language pathology and audiology (4.ª ed.). Plural Publishing.\n\n\nRoberts, M. Y., & Kaiser, A. P. (2015). Early intervention for toddlers with language delays: A randomized controlled trial. Pediatrics, 135(4), 686–693. https://doi.org/10.1542/peds.2014-2134",
+    "crumbs": [
+      "Como usar este livro"
+    ]
+  },
+  {
+    "objectID": "referencias.html",
+    "href": "referencias.html",
+    "title": "Referências",
+    "section": "",
+    "text": "Irwin, D. L., & Donai, J. J. (2026). Clinical research methods\nin speech-language pathology and audiology (4th ed.). Plural\nPublishing.\n\n\nRoberts, M. Y., & Kaiser, A. P. (2015). Early intervention for\ntoddlers with language delays: A randomized controlled trial.\nPediatrics, 135(4), 686–693. https://doi.org/10.1542/peds.2014-2134",
+    "crumbs": [
+      "Referências"
     ]
   },
   {
@@ -37,6 +116,7 @@
     "section": "",
     "text": "Cresce ao longo do semestre. Cada entrada remete para o capítulo onde o termo foi trabalhado.\n(ainda vazio)",
     "crumbs": [
+      "Apêndices",
       "Glossário"
     ]
   }

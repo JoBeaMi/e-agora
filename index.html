@@ -44,10 +44,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d2fe4ae8879fa045b577049272bdb1c9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f292d1532fcbb33adb921485701ea2bb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-801b4b3e89f53ee86dc0f10878a083db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f292d1532fcbb33adb921485701ea2bb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -75,11 +79,175 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script src="quiz.js"></script>
 
 
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -88,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Para quem é este livro</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Prefácio</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -103,9 +271,16 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Métodos de Pesquisa em Terapia da Fala II</a> 
-        <div class="sidebar-tools-main">
+      <a href="./">Métodos de Pesquisa<br>em Terapia da Fala II</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="mailto:joana.miguel@scml.pt" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://github.com/JoBeaMi/mptf-ii" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Alternar modo de leitor">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
     </div>
       </div>
@@ -119,30 +294,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Para quem é este livro</span></a>
+ <span class="menu-text">Prefácio</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Antes de começar</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./como-usar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Como usar este livro</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossario.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Glossário</span></a>
+  <a href="./como-usar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Como usar este livro</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -151,6 +309,23 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Referências</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apêndices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossário</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -161,8 +336,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#para-quem-é-este-livro" id="toc-para-quem-é-este-livro" class="nav-link active" data-scroll-target="#para-quem-é-este-livro">Para quem é este livro</a>
+  <li><a href="#prefácio" id="toc-prefácio" class="nav-link active" data-scroll-target="#prefácio">Prefácio</a>
   <ul class="collapse">
+  <li><a href="#para-quem-é" id="toc-para-quem-é" class="nav-link" data-scroll-target="#para-quem-é">Para quem é</a></li>
+  <li><a href="#o-que-este-livro-não-é" id="toc-o-que-este-livro-não-é" class="nav-link" data-scroll-target="#o-que-este-livro-não-é">O que este livro não é</a></li>
+  <li><a href="#porque-é-que-os-capítulos-aparecem-depois-das-aulas" id="toc-porque-é-que-os-capítulos-aparecem-depois-das-aulas" class="nav-link" data-scroll-target="#porque-é-que-os-capítulos-aparecem-depois-das-aulas">Porque é que os capítulos aparecem depois das aulas</a></li>
+  <li><a href="#que-atitude-ajuda" id="toc-que-atitude-ajuda" class="nav-link" data-scroll-target="#que-atitude-ajuda">Que atitude ajuda</a></li>
+  <li><a href="#erros" id="toc-erros" class="nav-link" data-scroll-target="#erros">Erros</a></li>
   <li><a href="#licença" id="toc-licença" class="nav-link" data-scroll-target="#licença">Licença</a></li>
   </ul></li>
   </ul>
@@ -170,6 +350,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -184,7 +365,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor</div>
     <div class="quarto-title-meta-contents">
-             <p>Joana Miguel </p>
+             <p>Joana Miguel <a href="mailto:joana.miguel@scml.pt" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
@@ -203,14 +384,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="para-quem-é-este-livro" class="level1 unnumbered">
-<h1 class="unnumbered">Para quem é este livro</h1>
-<p>Este livro acompanha a unidade curricular Métodos de Pesquisa em Terapia da Fala II (Licenciatura em Terapia da Fala, ESSAlcoitão, 2026/27). É escrito para os estudantes da UC, mas qualquer terapeuta da fala que queira ler um artigo sem se perder na secção de resultados pode usá-lo.</p>
-<p>Cada capítulo corresponde a uma aula e aparece aqui depois dessa aula, não antes. Isto é de propósito: as aulas começam pelo que cada um acha que os números querem dizer, e esse jogo só funciona se ninguém tiver lido a definição antes. O que encontram em cada capítulo é a versão arrumada do que se passou: a pergunta com que a aula abriu, as respostas que costumam aparecer, o caminho entre essas respostas e o conceito, os passos no Jamovi com capturas, e as frases de artigos reais para treinar.</p>
-<p>O livro cresce durante o semestre e é corrigido de ano para ano. Se encontrarem um erro ou uma frase que não se percebe, digam à docente: é o melhor feedback que o livro pode ter.</p>
-<section id="licença" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="licença">Licença</h2>
-<p>© Joana Miguel, 2026. Este livro está disponível sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt">Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>: podem ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos. As figuras e os dados de exemplo são construídos para este livro; nenhum caso corresponde a uma pessoa real.</p>
+<section id="prefácio" class="level1 unnumbered">
+<h1 class="unnumbered">Prefácio</h1>
+<p>Este livro acompanha a unidade curricular Métodos de Pesquisa em Terapia da Fala II, do 2.º ano da Licenciatura em Terapia da Fala da ESSAlcoitão, no ano letivo de 2026/27. Foi escrito para os estudantes dessa cadeira. Serve também a qualquer terapeuta da fala que abra um artigo, chegue à secção de resultados e não saiba o que fazer com os números.</p>
+<section id="para-quem-é" class="level2">
+<h2 class="anchored" data-anchor-id="para-quem-é">Para quem é</h2>
+<p>Para quem nunca teve estatística, ou teve e não ficou nada. Não é preciso saber fórmulas nem programar. É preciso ler um artigo até ao fim, ter uma calculadora à mão de vez em quando e instalar um programa gratuito, o Jamovi, quando um capítulo o pedir.</p>
+</section>
+<section id="o-que-este-livro-não-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-este-livro-não-é">O que este livro não é</h2>
+<p>Não é um manual de estatística. Há muitos, alguns muito bons, e estão indicados no fim dos capítulos. O que se faz aqui é mais estreito: aprender a reconhecer o que foi feito num estudo, perceber o que os números permitem concluir, e escrever um plano de revisão sistemática que outra pessoa conseguisse seguir sem nos perguntar nada.</p>
+</section>
+<section id="porque-é-que-os-capítulos-aparecem-depois-das-aulas" class="level2">
+<h2 class="anchored" data-anchor-id="porque-é-que-os-capítulos-aparecem-depois-das-aulas">Porque é que os capítulos aparecem depois das aulas</h2>
+<p>Cada capítulo corresponde a uma aula e só fica visível depois dela. As aulas começam por uma pergunta sobre uma frase real de um artigo (por exemplo, “o que quer dizer p = ,021?”) e a primeira coisa que fazemos é escrever no quadro o que cada um acha. A aula é o caminho entre essas respostas e o que o conceito é. Se a definição já estivesse lida, não havia caminho. O capítulo é a versão arrumada do que se passou, com as respostas que apareceram na turma, sem nomes, ao lado da versão certa. Vale a pena guardá-las: são as leituras que vão encontrar em artigos mal escritos e em conversas entre colegas.</p>
+</section>
+<section id="que-atitude-ajuda" class="level2">
+<h2 class="anchored" data-anchor-id="que-atitude-ajuda">Que atitude ajuda</h2>
+<p>Duas. Desconfiar devagar: um número num artigo nunca diz mais do que o desenho do estudo permite, e a pergunta “o que mais podia explicar isto?” serve para quase tudo. E aceitar não perceber à primeira: o valor p, o intervalo de confiança e a diferença entre correlação e causa enganam gente com trinta anos de carreira. Enganam porque parecem intuitivos. É por isso que aqui se parte da intuição e se vai desmontando.</p>
+</section>
+<section id="erros" class="level2">
+<h2 class="anchored" data-anchor-id="erros">Erros</h2>
+<p>O livro é corrigido de ano para ano. Um erro, uma frase que não se percebe, um exemplo que não bate certo com a prática: digam à docente na aula ou por email. É o melhor feedback que um livro destes pode ter.</p>
+</section>
+<section id="licença" class="level2">
+<h2 class="anchored" data-anchor-id="licença">Licença</h2>
+<p>© Joana Miguel, 2026. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt">CC BY-NC-SA 4.0</a>: podem ler, copiar e adaptar com atribuição, sem fins comerciais, partilhando nos mesmos termos. Os dados de exemplo são construídos para este livro; nenhum caso corresponde a uma pessoa real.</p>
 
 
 </section>
@@ -219,6 +418,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -304,6 +516,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -622,7 +839,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./como-usar.html" class="pagination-link" aria-label="Como usar este livro">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Como usar este livro</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">Como usar este livro</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -630,13 +847,13 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Joana Miguel · ESSAlcoitão · 2026/27</p>
+<p>Joana Miguel</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+<p>Métodos de Pesquisa em Terapia da Fala II, ESSAlcoitão, 2026/27</p>
+</div>
     <div class="nav-footer-right">
-<p>CC BY-NC-SA 4.0</p>
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt">CC BY-NC-SA</a></p>
 </div>
   </div>
 </footer>
