@@ -19,8 +19,8 @@ book:
   date: today
   date-format: "D MMMM YYYY"
   license: CC BY-NC-SA
-  site-url: https://joanamiguel.pt/mptf-ii/
-  repo-url: https://github.com/JoBeaMi/mptf-ii
+  site-url: https://joanamiguel.pt/e-agora/
+  repo-url: https://github.com/JoBeaMi/e-agora
   repo-branch: main
   reader-mode: true
   sidebar:
