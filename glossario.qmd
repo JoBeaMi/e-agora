@@ -1,5 +1,5 @@
 # Glossário {.unnumbered}
 
-Cresce ao longo do semestre. Cada entrada remete para o capítulo onde o termo foi trabalhado.
+Cresce ao longo do semestre. Cada entrada tem o termo em português, o equivalente em inglês entre parênteses, porque é assim que o vais encontrar nos artigos, e a indicação do capítulo onde foi trabalhado.
 
-(ainda vazio)
+(ainda vazio; o primeiro termo entra depois da primeira aula, na forma "**erro padrão** (standard error), capítulo 2: ...")

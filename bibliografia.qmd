@@ -1,0 +1,79 @@
+# Para ler {.unnumbered}
+
+Esta página junta tudo o que o livro cita e diz para que serve cada coisa. Está organizada pela ordem dos capítulos. Em cada bloco, o primeiro parágrafo é o que se pede à turma que leia antes ou depois da aula, e o segundo é para quem quer ir mais longe. Todas as referências foram verificadas no Crossref antes de entrarem (DOI, título, autores, ano, revista); a lista completa, em APA, está em [Referências](referencias.qmd).
+
+A maior parte do que se pede para ler é de leitura livre: ou a revista é de acesso aberto, ou o artigo tem uma versão gratuita no site da revista ou no PubMed Central. Quando uma ligação pedir pagamento, diz-me, e resolvemos.
+
+::: {.jm}
+uma lista de leituras é uma promessa, não um programa. O que se lê a sério neste livro são os capítulos e os artigos que trazem os exemplos; o resto está aqui para o dia em que a pergunta aparecer na clínica.
+:::
+
+## Antes de tudo: o que é a prática baseada na evidência
+
+Para a turma: @sackett1996, duas páginas no BMJ que definem a prática baseada na evidência como o encontro entre a melhor evidência, a experiência do clínico e as preferências do utente. É o texto de que este livro parte, e a definição continua a ser a que se usa trinta anos depois.
+
+Para ir mais longe: @greenhalgh2014 pergunta se o movimento se perdeu pelo caminho (listas de verificação em vez de julgamento clínico, ensaios que respondem à pergunta da indústria e não à do doente) e é a melhor resposta a quem diz que a PBE é uma moda. Em terapia da fala, @dodd2007 faz a análise SWOT da profissão perante a PBE; @mccurtin2012 mostram, com dados de terapeutas irlandeses e britânicos, que evidência usam de facto; @greenwell2021 repetem a pergunta nos Estados Unidos em 2021, e o resultado não é muito diferente. A tomada de posição da ASHA [@asha2005] é o documento oficial a que os terapeutas americanos se vinculam. Dois manuais: @dollaghan2007, escrito por uma terapeuta da fala para terapeutas da fala, é o único manual de PBE feito à medida da profissão; @greenhalgh2024 é o clássico para aprender a ler um artigo, na sétima edição. @roddam2010 juntam exemplos de serviços de terapia da fala em vários países que puseram a PBE a funcionar no dia a dia, e servem para a pergunta "e como é que isto se faz numa clínica a sério?".
+
+## Parte I. Ler números
+
+### Capítulo 1. O que quer dizer "significativo"
+
+Para a turma: @sullivan2012, quatro páginas com um título que já é a lição, "porque é que o valor p não chega", e o exemplo mais simples que conheço de um resultado significativo sem importância clínica.
+
+Para ir mais longe: @amrhein2019 é a carta na Nature assinada por mais de oitocentos cientistas a pedir que se deixe de dividir os resultados em "significativos" e "não significativos"; @nuzzo2014 conta, para leitores não estatísticos, como o valor p chegou a ser o que é.
+
+### Capítulo 2. Descrever e desconfiar
+
+Para a turma: @altman1995, uma página, sobre a frase que mais confusão faz em resultados nulos: não ter encontrado diferença não é ter mostrado que não há diferença. @patino2015ic, duas páginas bilingues (inglês e português) sobre o que um intervalo de confiança diz do tamanho de um efeito.
+
+Para ir mais longe: @cumming2014 defende as "novas estatísticas", estimar em vez de testar, com intervalos e tamanhos de efeito em vez de valores p; é longo, mas a primeira metade lê-se bem. @lakens2013 é o guia prático para calcular e reportar tamanhos de efeito em comparações de médias, com folha de cálculo. Para a diferença entre correlação e causa, @rohrer2018 explica com diagramas causais porque é que "controlar para" uma variável pode piorar as coisas, e @hernan2019 separa em três as tarefas que os dados permitem, descrever, prever e explicar, e mostra que só a terceira é causal. @ferreira2016 explica, em duas páginas bilingues, porque é que a aleatorização é o que permite dizer "causa".
+
+### Capítulo 3. O valor p
+
+Para a turma: @ferreira2015p, uma página bilingue, "o que é que o valor p quer mesmo dizer"; e @wasserstein2016, a declaração oficial da American Statistical Association com os seis princípios, que cabem numa página.
+
+Para ir mais longe: @greenland2016 é a lista das vinte e cinco interpretações erradas mais comuns de testes, valores p, intervalos de confiança e poder, cada uma com a explicação de porque está errada; é o artigo que se consulta quando se duvida de uma frase num artigo. @cohen1994 é o texto que abriu a discussão, e @gigerenzer2004 explica porque é que o ritual do valor p se instalou e porque é que resiste. @wasserstein2019 é a sequela da declaração da ASA, com a recomendação de não usar a palavra "significativo". @simmons2011 mostram com um exemplo construído como a liberdade de escolhas na análise permite provar qualquer coisa, e @ioannidis2005 tira a consequência: uma parte grande do que se publica está errada, e sabe-se porquê. Para a estatística na nossa área, @oleson2019 descrevem como mudaram os métodos estatísticos nas revistas de fala, linguagem e audição. Para aprender a fazer as análises no Jamovi, o manual de @navarro2025 é livre, tem licença aberta e foi escrito para quem começa. Para quem trabalha em SPSS, @maroco2021 é a referência em português.
+
+## Parte II. Do problema ao protocolo
+
+### Capítulo 4. Da dúvida à pergunta
+
+Para a turma: @richardson1995, o editorial de duas páginas onde a pergunta clínica bem construída, com as quatro partes que hoje se chamam PICO, foi proposta pela primeira vez.
+
+Para ir mais longe: @schardt2007 testam se escrever a pergunta em PICO melhora a pesquisa no PubMed. @schlosser2007 propõem, para a comunicação aumentativa e alternativa, o formato PESICO, que acrescenta o ambiente e as partes interessadas, e é a versão da pergunta clínica que melhor serve a terapia da fala. @browner2022 é o manual de desenho de estudos onde os critérios FINER estão explicados.
+
+### Capítulo 5. Ética e tipos de estudo
+
+Para a turma: a Declaração de Helsínquia na versão de 2024 [@wma2025], poucas páginas; e @munn2018, sobre a diferença entre revisão sistemática e revisão de âmbito, para saber qual das duas a pergunta pede.
+
+Para ir mais longe: a versão anterior da Declaração [@wma2013] é a que a maior parte dos artigos que vais ler cita. @grant2009 descrevem catorze tipos de revisão e o que cada um exige; @tricco2018 é a lista de verificação para revisões de âmbito. @rothwell2005 pergunta a quem se aplicam os resultados de um ensaio, e é a leitura que liga o desenho do estudo ao utente que temos à frente.
+
+### Capítulo 6. PBE e análise crítica
+
+Para a turma: @ebbels2019 propõem percursos baseados na evidência para decidir quem intervém, com que intensidade e quando, nas perturbações da linguagem em crianças; é o artigo que mostra a PBE a funcionar na nossa área.
+
+Para ir mais longe: as ferramentas de risco de viés, RoB 2 para ensaios aleatorizados [@sterne2019] e ROBINS-I para estudos não aleatorizados [@sterne2016]; o sistema GRADE para classificar a confiança na evidência [@guyatt2008]; e o AMSTAR 2 para avaliar a qualidade de uma revisão sistemática [@shea2017]. Para a pesquisa, @bramer2018 descrevem um método passo a passo para construir a string, @cooper2018 revêem as orientações existentes, e @rethlefsen2021 dizem o que uma pesquisa reportada tem de conter.
+
+### Capítulo 7. A revisão sistemática
+
+Para a turma: @donato2019, em português, as etapas de uma revisão sistemática em nove páginas na Acta Médica Portuguesa; e a declaração PRISMA 2020 [@page2021prisma], que é a lista de verificação que o teu protocolo tem de cumprir quando a revisão for escrita.
+
+Para ir mais longe: o PRISMA-P [@moher2015prismap] é a lista para o protocolo, e é a que se usa no trabalho desta cadeira. @booth2012 explicam o PROSPERO, o registo internacional de protocolos, e porque é que registar antes de começar protege a revisão. O manual da Cochrane [@higgins2024] é a referência completa, livre online; os capítulos sobre elegibilidade, pesquisa e risco de viés são os que mais se usam. @galvao2014 é um resumo de duas páginas, em português do Brasil. Para escrever, o manual da APA na sétima edição [@apa2020]. Para ver uma revisão sistemática feita na nossa área, @wren2018 classificam as intervenções para perturbações dos sons da fala em idade pré-escolar, e @marshall2011 explicam, para terapeutas da fala, o que uma revisão sistemática dá e o que não dá.
+
+## Parte III. Da evidência à decisão
+
+Esta parte ainda não está escrita. As leituras que a vão sustentar já estão verificadas: @elwyn2012 propõem o modelo de decisão partilhada em três passos, falar das opções, falar das escolhas, decidir; @charles1997 é o artigo que definiu o que a decisão partilhada é e o que não é; @stiggelbout2012 e @hoffmann2014 ligam a decisão partilhada à prática baseada na evidência e mostram que uma sem a outra não funciona. @straus2026 é o manual de referência para praticar e ensinar a medicina baseada na evidência, na sexta edição.
+
+Um formato que vale a pena conhecer: os EBP Briefs, uma revista de acesso livre, com revisão por pares, em que cada número responde a uma pergunta clínica de terapia da fala em PICO, com o cenário do utente, a pesquisa, a avaliação dos estudos e a decisão no fim. O de @lam2025 é um bom exemplo de como se vai da pergunta à decisão em dez páginas.
+
+## Os artigos que usamos como exemplos
+
+Os capítulos partem de frases reais de artigos publicados. Estão todos aqui para que possas ler o artigo inteiro e confirmar que o que o livro diz está lá.
+
+Ensaios aleatorizados em terapia da fala: @roberts2015, o ensaio de intervenção precoce com crianças com atraso de linguagem de onde vem a primeira frase do livro; @wake2011, um ensaio populacional com crianças de dois anos que não encontrou efeito, e é por isso que está aqui; @bowen2012, um ensaio nos primeiros quatro meses depois do AVC que também não encontrou diferença entre terapia e contacto social; @jones2005, o ensaio do programa Lidcombe para a gaguez; @breitenstein2017 e @palmer2019, dois ensaios grandes de terapia da afasia crónica, um intensivo e presencial, outro por computador em casa; @fricke2013, um ensaio de intervenção na linguagem oral em idade pré-escolar. Estudo não aleatorizado: @ebbels2017, sobre terapia individual em crianças mais velhas com perturbação da linguagem.
+
+Meta-análises e revisões, para ler um forest plot: @roberts2011, sobre intervenções de linguagem implementadas pelos pais; @law2004, a meta-análise clássica sobre tratamento das perturbações da fala e da linguagem em crianças; @brady2016, a revisão Cochrane sobre terapia da afasia depois do AVC; @wren2018, a revisão sobre perturbações dos sons da fala.
+
+## O manual da cadeira
+
+@irwin2026 é o manual de métodos de investigação em terapia da fala e audiologia que acompanha a cadeira; os capítulos e as páginas estão indicados no fim de cada capítulo deste livro.

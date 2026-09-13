@@ -4,9 +4,15 @@ project:
 
 lang: pt-PT
 
+# Os blocos de R são executados no RStudio e o resultado fica guardado em _freeze/
+# (que vai com o push). O GitHub Actions só monta o site; não precisa de R.
+execute:
+  freeze: auto
+
 book:
-  title: "Ler artigos em terapia da fala"
-  subtitle: "Desconfiar de números, perceber o que foi feito, escrever um protocolo"
+  title: "E agora? O que fazemos com a evidência?"
+  subtitle: "Da pergunta clínica à decisão partilhada"
+  description: "Prática baseada na evidência, com exemplos de terapia da fala e neurodesenvolvimento. Um livro em construção, de Joana Miguel."
   author:
     - name: Joana Miguel
       email: joana.miguel@caidi.pt
@@ -18,7 +24,7 @@ book:
   repo-branch: main
   reader-mode: true
   sidebar:
-    title: Ler artigos<br>em terapia da fala
+    title: E agora?<br>O que fazemos com a evidência?
     subtitle: Joana Miguel, em construção
     tools:
       - icon: envelope
@@ -26,12 +32,12 @@ book:
   page-footer:
     background: light
     left: Joana Miguel
-    center: Ler artigos em terapia da fala
+    center: E agora? O que fazemos com a evidência?
     right: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt">CC BY-NC-SA</a>
   chapters:
     - index.qmd
     - como-usar.qmd
-    # Parte I. Ler números (capítulos entram à medida que ficam prontos)
+    # Parte I. Ler números (cada capítulo entra depois da aula correspondente)
     # - part: "Ler números"
     #   chapters:
     #     - 01-ler-um-resultado.qmd
@@ -44,9 +50,16 @@ book:
     #     - 05-etica-e-tipos-de-estudo.qmd
     #     - 06-pbe-e-analise-critica.qmd
     #     - 07-revisao-sistematica.qmd
+    # Parte III. Da evidência à decisão (prometida no prefácio; escreve-se quando chegar lá)
+    # - part: "Da evidência à decisão"
+    #   chapters:
+    #     - 08-aplicar-a-este-utente.qmd
+    #     - 09-decidir-com-o-utente.qmd
+    #     - 10-quando-nao-ha-evidencia.qmd
     - part: "Percursos"
       chapters:
         - percursos/mptf-ii-2026.qmd
+    - bibliografia.qmd
     - referencias.qmd
   appendices:
     - glossario.qmd
