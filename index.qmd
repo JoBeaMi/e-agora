@@ -11,7 +11,7 @@ Não é um manual de estatística; há muitos, alguns muito bons, e estão indic
 Sou terapeuta da fala desde 2006 e dirijo uma clínica desde 2011. Ao longo destes anos vi a mesma cena repetir-se em reuniões clínicas, em formações e em conversas de corredor: alguém cita um artigo, diz "foi significativo", e a partir daí a decisão está tomada. Ninguém pergunta quantas crianças eram, qual foi a diferença, ou se o desenho do estudo permitia dizer que uma coisa causou a outra. Não é falta de inteligência nem de boa vontade; é que estes conceitos parecem intuitivos, e a intuição está quase sempre errada da mesma maneira. Vi-o em estudantes e vi-o em colegas com trinta anos de profissão, e vi-o em mim antes de ter passado alguns anos a estudar estatística por causa do doutoramento.
 
 ::: {.jm}
-o momento em que decidi escrever isto foi numa aula, quando pedi a uma turma que me dissesse o que achava que "p = ,02" queria dizer e as respostas que apareceram no quadro eram exatamente as que eu ouvia em reuniões de equipa. O problema não era deles. Era da ordem por que estas coisas se ensinam: primeiro a definição, depois a fórmula, e só muito mais tarde, se alguma vez, a pergunta a que aquilo respondia.
+a cena que me decidiu é a mesma em qualquer turma e em qualquer equipa, e eu já estive dos dois lados dela: alguém pergunta o que "p = ,02" quer dizer, e as respostas que aparecem são todas razoáveis, todas convictas e quase todas erradas da mesma maneira. O problema nunca foi de quem responde. Era da ordem por que estas coisas se ensinam: primeiro a definição, depois a fórmula, e só muito mais tarde, se alguma vez, a pergunta a que aquilo respondia.
 :::
 
 ## Como este livro ensina
