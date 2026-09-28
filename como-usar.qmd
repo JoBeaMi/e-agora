@@ -1,18 +1,18 @@
 # Como usar este livro {.unnumbered}
 
-Os capítulos seguem a ordem de uma aula, e a aula tem sempre três vozes: o artigo, a turma e o caminho. O artigo fala primeiro, com a frase real que lemos; a turma responde, com o que ficou no quadro; e depois vem o caminho entre essas respostas e o conceito. A definição só aparece no fim. Isto é um excerto do capítulo sobre o valor p, para veres como se lê.
+Os capítulos seguem a ordem de uma aula, e a aula tem sempre três vozes: o artigo, a turma e o caminho. O artigo fala primeiro, com a frase real que lemos; a turma responde, com o que ficou no quadro; e depois vem o caminho entre essas respostas e o conceito. A definição só aparece no fim do capítulo. O excerto abaixo mostra como se lê; é do primeiro capítulo, "Ler um resultado", e as respostas da turma são exemplos até a aula acontecer, altura em que são substituídas pelas respostas reais, sem nomes.
 
 ::: {.fio}
 ::: {.msg}
 <div class="quem">O artigo</div>
 ::: {.clip}
-Os cuidadores melhoraram o uso das estratégias de facilitação da linguagem ([diferença média ajustada = 40; IC 95 % \[34, 46\]]{.mk}; [p < ,01]{.mk .p}). As crianças mostraram ganhos [significativamente]{.mk .p} melhores nas competências recetivas, [mas não na linguagem expressiva]{.mk}.
-<span class="src">Roberts & Kaiser (2015), Pediatrics 135(4), resumo</span>
+Os cuidadores melhoraram o uso de todas as estratégias de facilitação da linguagem, como os turnos correspondidos ([diferença média ajustada, intervenção menos controlo, 40; intervalo de confiança a 95 % de 34 a 46]{.mk}; [p < ,01]{.mk .p}). As crianças do grupo de intervenção tiveram competências de linguagem recetiva [significativamente]{.mk .p} melhores (5,3; intervalo de confiança a 95 % de 0,15 a 10,4), [mas não de linguagem expressiva]{.mk} (0,37; −4,5 a 5,3; p = ,88).
+<span class="src">Roberts & Kaiser (2015), Pediatrics, 135(4), resumo, secção Results; tradução da docente</span>
 :::
 :::
 ::: {.msg .turma}
-<div class="quem">A turma, no quadro</div>
-<span class="b">p < ,01 é quase 0, logo é quase certo que funciona</span>
+<div class="quem">A turma, no quadro (exemplo)</div>
+<span class="b">p < ,01 é quase zero, logo é quase certo que funciona</span>
 <span class="b">"não na expressiva" quer dizer que para falar não serve</span>
 <span class="b">40 é muito? 40 quê?</span>
 :::
@@ -22,24 +22,20 @@ Os cuidadores melhoraram o uso das estratégias de facilitação da linguagem ([
 a terceira é a melhor das três, e é por ela que começo sempre. Quem pergunta "40 quê?" já está a ler o artigo; os outros dois estão a ler o p.
 :::
 ::: {.nums}
-<div class="num">40<small>a diferença entre grupos</small></div>
-<div class="num">34–46<small>IC 95 % dessa diferença</small></div>
+<div class="num">40<small>a diferença entre os dois grupos</small></div>
+<div class="num">34 a 46<small>o intervalo de confiança a 95 % dessa diferença</small></div>
 :::
-O 40 é a diferença, entre grupos, no número de vezes que os pais usaram as estratégias ensinadas, ajustada às diferenças iniciais. O intervalo de confiança diz onde essa diferença cairia se o ensaio fosse repetido muitas vezes: entre 34 e 46. É isto que responde a "é muito?"; o p não.
+O 40 é uma diferença entre o grupo que teve a intervenção e o grupo que não teve, numa medida do comportamento dos pais, ajustada às diferenças que já existiam à partida. A unidade e a escala não estão no resumo; estão na secção de Métodos do artigo, e é por isso que "40 quê?" é a pergunta certa. O intervalo de 34 a 46 é o conjunto dos valores da diferença verdadeira que são compatíveis com estes dados; é ele, e não o p, que responde a "é muito?". Como se chega daqui a uma leitura da frase inteira, incluindo o "significativamente" e o "mas não", é o que o capítulo faz.
 :::
-:::
-
-::: {.def}
-O valor p é a probabilidade de obter um resultado pelo menos tão extremo como o observado se não houvesse efeito nenhum. Não é a probabilidade de a hipótese estar certa, nem o tamanho do efeito. O tamanho lê-se na diferença e no seu intervalo de confiança.
 :::
 
 ::: {.quiz data-certa="3"}
-<p class="enunciado">Q0.1 No mesmo ensaio, a linguagem expressiva das crianças não diferiu significativamente entre grupos. A conclusão legítima é:</p>
+<p class="enunciado">No mesmo ensaio, a linguagem expressiva das crianças não diferiu significativamente entre grupos (0,37; intervalo de confiança a 95 % de −4,5 a 5,3; p = ,88). A conclusão legítima é:</p>
 <label><input type="radio" name="q01" value="1"> a intervenção não melhora a linguagem expressiva</label>
 <label><input type="radio" name="q01" value="2"> a intervenção melhora, mas o efeito é pequeno</label>
-<label><input type="radio" name="q01" value="3"> este ensaio não conseguiu mostrar diferença; é preciso olhar para o intervalo de confiança e para o tamanho da amostra</label>
+<label><input type="radio" name="q01" value="3"> este ensaio não conseguiu mostrar uma diferença; o intervalo admite tanto uma perda de 4,5 como um ganho de 5,3</label>
 <button type="button">Verificar</button> <span class="resultado"></span>
-<p class="explicacao">Ausência de evidência não é evidência de ausência. O capítulo sobre o valor p explica porquê; se escolheste a primeira, é a leitura mais comum, incluindo em artigos publicados.</p>
+<p class="explicacao">Ausência de evidência não é evidência de ausência (Altman & Bland, 1995). Se escolheste a primeira, é a leitura mais comum, incluindo em artigos publicados; o capítulo sobre o valor p explica porque é que está errada.</p>
 :::
 
 ## O fim de cada capítulo

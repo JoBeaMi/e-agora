@@ -16,9 +16,9 @@ Para ir mais longe: @greenhalgh2014 pergunta se o movimento se perdeu pelo camin
 
 ## Parte I. Ler números
 
-### Capítulo 1. O que quer dizer "significativo"
+### Capítulo 1. Ler um resultado
 
-Para a turma: @sullivan2012, quatro páginas com um título que já é a lição, "porque é que o valor p não chega", e o exemplo mais simples que conheço de um resultado significativo sem importância clínica.
+Para a turma, depois da aula: @sullivan2012, quatro páginas com um título que já é a lição, "porque é que o valor p não chega", e o exemplo mais simples que conheço de um resultado significativo sem importância clínica.
 
 Para ir mais longe: @amrhein2019 é a carta na Nature assinada por mais de oitocentos cientistas a pedir que se deixe de dividir os resultados em "significativos" e "não significativos"; @nuzzo2014 conta, para leitores não estatísticos, como o valor p chegou a ser o que é.
 
@@ -70,7 +70,7 @@ Um formato que vale a pena conhecer: os EBP Briefs, uma revista de acesso livre,
 
 Os capítulos partem de frases reais de artigos publicados. Estão todos aqui para que possas ler o artigo inteiro e confirmar que o que o livro diz está lá.
 
-Ensaios aleatorizados em terapia da fala: @roberts2015, o ensaio de intervenção precoce com crianças com atraso de linguagem de onde vem a primeira frase do livro; @wake2011, um ensaio populacional com crianças de dois anos que não encontrou efeito, e é por isso que está aqui; @bowen2012, um ensaio nos primeiros quatro meses depois do AVC que também não encontrou diferença entre terapia e contacto social; @jones2005, o ensaio do programa Lidcombe para a gaguez; @breitenstein2017 e @palmer2019, dois ensaios grandes de terapia da afasia crónica, um intensivo e presencial, outro por computador em casa; @fricke2013, um ensaio de intervenção na linguagem oral em idade pré-escolar. Estudos não aleatorizados: @pereira2025, um ensaio controlado com lista de espera, feito em Portugal, sobre um programa de intervenção pragmática em crianças com perturbação do espetro do autismo ou perturbação do desenvolvimento da linguagem (36 crianças; é o exemplo do capítulo 2 para a pergunta "o que é que um desenho sem aleatorização permite concluir?"); e @ebbels2017, sobre terapia individual em crianças mais velhas com perturbação da linguagem.
+Ensaios aleatorizados em terapia da fala: @roberts2015, o ensaio de intervenção precoce com crianças com atraso de linguagem de onde vem a primeira frase do livro; @wake2011, um ensaio populacional com crianças de 18 meses com pouco vocabulário, avaliadas aos 2 e aos 3 anos, que não encontrou efeito, e é por isso que está aqui; @bowen2012, um ensaio nos primeiros quatro meses depois do AVC que também não encontrou diferença entre terapia e contacto social; @jones2005, o ensaio do programa Lidcombe para a gaguez; @breitenstein2017 e @palmer2019, dois ensaios grandes de terapia da afasia crónica, um intensivo e presencial, outro por computador em casa; @fricke2013, um ensaio de intervenção na linguagem oral em idade pré-escolar. Estudos não aleatorizados: @pereira2025, um ensaio controlado com lista de espera, feito em Portugal, sobre um programa de intervenção pragmática em crianças com perturbação do espetro do autismo ou perturbação do desenvolvimento da linguagem (36 crianças; é o exemplo do capítulo 2 para a pergunta "o que é que um desenho sem aleatorização permite concluir?"); e @ebbels2017, sobre terapia individual em crianças mais velhas com perturbação da linguagem.
 
 Meta-análises e revisões, para ler um forest plot: @roberts2011, sobre intervenções de linguagem implementadas pelos pais; @law2004, a meta-análise clássica sobre tratamento das perturbações da fala e da linguagem em crianças; @brady2016, a revisão Cochrane sobre terapia da afasia depois do AVC; @wren2018, a revisão sobre perturbações dos sons da fala.
 
